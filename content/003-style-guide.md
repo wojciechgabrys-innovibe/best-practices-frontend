@@ -1,0 +1,5 @@
+# Style guide
+
+Omawiając to zagadnienie mamy na myśli dedykowany page lub artboard, gdzie znajdują się podobne do siebie komponenty (np. zestaw kolorów, hierarchia nagłówków, kontrolki formularzy, etc.). Pozwala to na łatwe wychwycenie ich wspólnych właściwości (np. podobieństwo fontów, obramowań i&nbsp;paddingów wewnątrz pól tekstowych, list) i&nbsp;utrzymanie spójności w&nbsp;projekcie. Osoba wdrażająca nasze projekty będzie wiedziała jak ma wyglądać zwykły input w&nbsp;różnych stanach (pusty, z&nbsp;treścią, z&nbsp;placeholder’em, podświetlony kursorem, aktywny, zablokowany) i&nbsp;w różnych wariantach (zwykły input, input do wprowadzania kwoty w&nbsp;danej walucie, dropdown, etc.)
+
+Dodatkowym atutem styleguide’u jest możliwość korzystania z&nbsp;niego jak z&nbsp;pudełka z&nbsp;klockami Lego – nowe ekrany tworzy się szybciej i&nbsp;pewniej (mając świadomość zachowania spójności z&nbsp;resztą projektu). W&nbsp;ekstremalnych przypadkach (np. nasza nieobecność) programista zaopatrzony w&nbsp;dobrze przygotowany style guide będzie sam w&nbsp;stanie zbudować brakujący moduł lub widok z&nbsp;posiadanych komponentów.
