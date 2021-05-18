@@ -10,9 +10,9 @@ Nie jesteśmy w&nbsp;stanie przewidzieć i&nbsp;opisać tutaj wszystkich wariant
 
 >{must_have} **Zdefiniuj paletę kolorów.** Przygotowując projekt zdefiniuj podstawową paletę kolorów (tło strony, body text, akcenty) i&nbsp;staraj się nimi operować na przestrzeni projektu. Zbyt duża liczba kolorów i&nbsp;ich odcieni może łatwo i&nbsp;szybko wprowadzić wizualny harmider.
 
->{must_have} **Definiuj nowe kolory zamiast zmieniać opacity.** [TODO]
+>{must_have} **Definiuj nowe kolory zamiast zmieniać opacity.** Dobrą praktyką jest definiowanie nowych odcieni i unikanie zmian `opacity`/`alpha` poszczególnych obiektów lub warstw w celu ootrzymnia nowych kolorów (chyba, że staraymy się uzyskać efekt przezroczystości danego elementu). Ułatwi to pracę developerom, którzy nie muszą sprawdzać ustawień koloru w conajmniej 3 różnych miejscach (kolor obiektu, przezroczystość obiektu, przezroczystość grupy).
 
->{nice_to_have} **Przygotuj zestaw kolorów dla wykresów.** [TODO]
+>{nice_to_have} **Przygotuj zestaw kolorów dla wykresów.** Jeśli tworzony przez Ciebie projekt posiada wykresy, zdefiniuj zestaw kolorów (i kolejność w jakich powinny być używane). Staraj się unikać różnych odcieni tego samego koloru, ponieważ obniża to czytelność wykresu (odbiorca z nawet drobną wadą wzroku może mieć spore problemy z ich odczytaniem).
 
 #### Nagłówki
 
@@ -143,12 +143,12 @@ Poza samymi plikami graficznymi, na projekty składają się również:
 
 #### Social media
 
-Nawet jeśli klient nie planuje obecności w&nbsp;mediach społecznościowych (w celach stricte marketingowych), niektóre platformy wymagają założenia kont w&nbsp;celu integracji z&nbsp;ich API. W&nbsp;przypadku produktów
+Nawet jeśli klient nie planuje obecności w&nbsp;mediach społecznościowych (w celach stricte marketingowych), niektóre platformy wymagają założenia kont w&nbsp;celu integracji z&nbsp;ich API.
 
 >{nice_to_have}**Open Graph Images.** Większość sieci społecznościowych i&nbsp;komunikatorów wyświetla metadane i&nbsp;miniaturę po wklejeniu linku – z&nbsp;tego powodu warto przygotować dedykowane grafiki dla poszczególnych platform (np. Facebook, Twitter). Nie podajemy konkretnych rozdzielczości i&nbsp;formatów, bo te ulegają ciągłym zmianom. Niektóre formaty wymagają odpowiedniego przemyślenia i&nbsp;zaprojektowania, ponieważ ta sama grafika jest przycinana na różne sposoby i&nbsp;wyświetlana na różnych urządzeniach (desktop/mobile).
 > * [https://www.bannerbear.com/](https://www.bannerbear.com/)
 
->{nice_to_have}**Avatary.** Część platform społecznościowych operuje avatarami w&nbsp;kształcie kwadratu (zwykle z&nbsp;zaokrąglonymi narożnikami), a&nbsp;część przycina je do kształtu koła. Jeśli niemożliwym jest przygotowanie uniwersalnego obrazka lepiej przygotować dwa osobne. Roździelczość 1024x1024 powinna być wystarczająca. Eksportuj je w&nbsp;formie kwadratu, bez przezroczystości (nawet te okrągłe – platformy i&nbsp;aplikacje zawsze same maskują). Dzięki temu nie będzie problemu gdy okrągły avatar (np. z&nbsp;Twittera) zostanie później zamaskowany z&nbsp;użyciem tzw. [Squircle](https://en.wikipedia.org/wiki/Squircle) (jak to miało ostatnio miejsce w&nbsp;Clubhouse, które importowało avatary z&nbsp;Twittera).
+>{nice_to_have}**Avatary.** Część platform społecznościowych operuje avatarami w&nbsp;kształcie kwadratu (zwykle z&nbsp;zaokrąglonymi narożnikami), a&nbsp;część przycina je do kształtu koła. Jeśli niemożliwym jest przygotowanie uniwersalnego obrazka lepiej przygotować dwa osobne. Roździelczość `1024×1024` powinna być wystarczająca. Eksportuj je w&nbsp;formie kwadratu, bez przezroczystości (nawet te okrągłe – platformy i&nbsp;aplikacje zawsze same maskują). Dzięki temu nie będzie problemu gdy okrągły avatar (np. z&nbsp;Twittera) zostanie później zamaskowany z&nbsp;użyciem tzw. [Squircle](https://en.wikipedia.org/wiki/Squircle) (jak to miało ostatnio miejsce w&nbsp;Clubhouse, które importowało avatary z&nbsp;Twittera).
 
 #### Pozostałe
 >{nice_to_have} Jeśli wiemy, że przygotowywana strona będzie korzystała z&nbsp;dobrodziejstw PWA, warto przygotować [splash screen](https://love2dev.com/pwa/splash-screen/) i&nbsp;[ikony aplikacji](https://evilmartians.com/chronicles/how-to-favicon-in-2021-six-files-that-fit-most-needs).

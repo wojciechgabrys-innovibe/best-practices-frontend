@@ -10,4 +10,4 @@ Zacznij od przejrzenia spisu treści, aby zlokalizować fragmenty które mogą d
 
 ### Zgłaszanie błędów i&nbsp;sugerowanie pomysłów
 
-Źródła tego dokumentu są dostępne w&nbsp;formacie `Markdown` pod adresem `https://gitlab.polcode.com/ui-ux/best-practices-frontend`.
+Źródła tego dokumentu są dostępne w&nbsp;formacie `Markdown` pod adresem `https://gitlab.polcode.com/ui-ux/best-practices-frontend`. Zachęcamy do wysyłania PRóow z porawkami i pomysłami.
