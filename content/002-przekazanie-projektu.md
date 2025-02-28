@@ -4,7 +4,7 @@
 
 Przekazanie projektu powinno rozpocząć się od spotkania (zwykle w&nbsp;formie telekonferencji z&nbsp;współdzielonym przez projektanta ekranem), podczas którego projektant zapoznaje frontendowca ze strukturą przekazywanego projektu i&nbsp;przechodzi przez poszczególne ekrany/flowy. Naturalnie ilość informacji przekazywana podczas jednego spotkania będzie ogromna – nie wymagamy zrozumienia/zapamiętania wszystkiego.
 
-Omawianie projektu w&nbsp;ten sposób pozwala osobie odbierającej na zapoznanie się z&nbsp;pełnym zakresem projektu i&nbsp;jego niuansami (np. powody podjęcia pewnych decyzji podczas projektowania, dlaczego część ekranów odbiega układem od reszty, etc.).
+Omawianie projektu w&nbsp;ten sposób pozwala osobie odbierającej na zapoznanie się z&nbsp;pełnym zakresem projektu i&nbsp;jego niuansami (np. powody podjęcia pewnych decyzji podczas projektowania, dlaczego część ekranów odbiega układem od reszty).
 
 ### Format
 
@@ -27,3 +27,9 @@ Dobrym zabiegiem jest dodanie dużych nagłówków (ok. `200pt`) opisujących gr
 * Samodzielnie odkryć brakujące ścieżki użytkowników
 * Dostarczyć klientowi “prototyp” aplikacji, co pozwoli mi na zweryfikowanie poprawności pierwotnych założeń i&nbsp;ewentualną szybką zmianę kursu zanim projekt trafi do wdrażania
 * Dostarczyć programistom dodatkowy poziom informacji (w postaci interaktywnej dokumentacji), co zdecydowanie ułatwi im wybór.
+
+### Weryfikacja jakości wdrożenia
+
+Wspólna praca projektanta i programisty nie powinna się kończyć na przekazaniu projektu graficznego. W trakcie procesu wdrożenia powinno się odbyć conajmniej jedno spotkanie (choć zalecamy robienie ich cyklicznie), na którym grafik będzie mógł zweryfikować jakość wdrożenia i zgodność z przekazanym wcześniej projektem.
+
+Dobrą praktyką są też cykliczne prezentacje wyglądu wdrażanego projektu product ownerowi i/lub klientowi (szczególnie wtedy, gdy od pierwszej prezentacji ekranów wprowadzone zostały jakiekolwiek zmiany). Pozwoli to na otrzymanie akceptacji na poszczególnych etaptach wdrożenia i unikniemy ewentualnych nieporozumień, które mają tendencję do pojawiania się gdy projekt jest w końcowych fazach produkcji.
